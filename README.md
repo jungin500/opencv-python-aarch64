@@ -1,0 +1,103 @@
+# opencv-python-aarch64
+OpenCV Python Wheel for python 3.7.3, arm64(aarch64) architecture
+
+- Python version: 3.7.3
+- Architecture: ARM64 (aarch64)
+- Preinstalled libraries: `TBD`
+- Build options: `TBD`
+- Build Configurations:
+```
+-- General configuration for OpenCV 4.5.2 =====================================
+--   Version control:               4.5.2
+-- 
+--   Platform:
+--     Timestamp:                   2021-06-29T08:25:37Z
+--     Host:                        Linux 5.8.0-59-generic aarch64
+--     CMake:                       3.13.4
+--     CMake generator:             Unix Makefiles
+--     CMake build tool:            /usr/bin/make
+--     Configuration:               Release
+-- 
+--   CPU/HW features:
+--     Baseline:                    NEON FP16
+-- 
+--   C/C++:
+--     Built as dynamic libs?:      YES
+--     C++ standard:                11
+--     C++ Compiler:                /usr/bin/c++  (ver 8.3.0)
+--     C++ flags (Release):         -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -O3 -DNDEBUG  -DNDEBUG
+--     C++ flags (Debug):           -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -g  -O0 -DDEBUG -D_DEBUG
+--     C Compiler:                  /usr/bin/cc
+--     C flags (Release):           -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -O3 -DNDEBUG  -DNDEBUG
+--     C flags (Debug):             -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -g  -O0 -DDEBUG -D_DEBUG
+--     Linker flags (Release):      -Wl,--gc-sections -Wl,--as-needed  
+--     Linker flags (Debug):        -Wl,--gc-sections -Wl,--as-needed  
+--     ccache:                      NO
+--     Precompiled headers:         NO
+--     Extra dependencies:          dl m pthread rt
+--     3rdparty dependencies:
+-- 
+--   OpenCV modules:
+--     To be built:                 calib3d core dnn features2d flann gapi highgui imgcodecs imgproc ml objdetect photo python3 stitching ts video videoio
+--     Disabled:                    python_tests world
+--     Disabled by dependency:      -
+--     Unavailable:                 java python2
+--     Applications:                apps
+--     Documentation:               NO
+--     Non-free algorithms:         NO
+-- 
+--   GUI: 
+--     GTK+:                        YES (ver 3.24.5)
+--       GThread :                  YES (ver 2.58.3)
+--       GtkGlExt:                  NO
+--     VTK support:                 NO
+-- 
+--   Media I/O: 
+--     ZLib:                        /usr/lib/aarch64-linux-gnu/libz.so (ver 1.2.11)
+--     JPEG:                        /usr/lib/aarch64-linux-gnu/libjpeg.so (ver 62)
+--     WEBP:                        /usr/lib/aarch64-linux-gnu/libwebp.so (ver encoder: 0x020e)
+--     PNG:                         /usr/lib/aarch64-linux-gnu/libpng.so (ver 1.6.36)
+--     TIFF:                        /usr/lib/aarch64-linux-gnu/libtiff.so (ver 42 / 4.1.0)
+--     JPEG 2000:                   build (ver 2.4.0)
+--     OpenEXR:                     /usr/lib/aarch64-linux-gnu/libImath.so /usr/lib/aarch64-linux-gnu/libIlmImf.so /usr/lib/aarch64-linux-gnu/libIex.so /usr/lib/aarch64-linux-gnu/libHalf.so /usr/lib/aarch64-linux-gnu/libIlmThread.so (ver 2_2)
+--     HDR:                         YES
+--     SUNRASTER:                   YES
+--     PXM:                         YES
+--     PFM:                         YES
+-- 
+--   Video I/O:
+--     DC1394:                      NO
+--     FFMPEG:                      YES
+--       avcodec:                   YES (58.35.100)
+--       avformat:                  YES (58.20.100)
+--       avutil:                    YES (56.22.100)
+--       swscale:                   YES (5.3.100)
+--       avresample:                NO
+--     GStreamer:                   YES (1.14.4)
+--     v4l/v4l2:                    YES (linux/videodev2.h)
+-- 
+--   Parallel framework:            pthreads
+-- 
+--   Trace:                         YES (with Intel ITT)
+-- 
+--   Other third-party libraries:
+--     Lapack:                      NO
+--     Eigen:                       NO
+--     Custom HAL:                  YES (carotene (ver 0.0.1))
+--     Protobuf:                    build (3.5.1)
+-- 
+--   OpenCL:                        YES (no extra features)
+--     Include path:                /workspace/opencv/3rdparty/include/opencl/1.2
+--     Link libraries:              Dynamic load
+-- 
+--   Python 3:
+--     Interpreter:                 /usr/bin/python3 (ver 3.7.3)
+--     Libraries:                   /usr/lib/aarch64-linux-gnu/libpython3.7m.so (ver 3.7.3)
+--     numpy:                       /usr/local/lib/python3.7/dist-packages/numpy/core/include (ver 1.21.0)
+--     install path:                lib/python3.7/dist-packages/cv2/python-3.7
+-- 
+--   Python (for build):            /usr/bin/python2.7
+-- 
+--   Install to:                    /usr/local
+-- -----------------------------------------------------------------
+```
